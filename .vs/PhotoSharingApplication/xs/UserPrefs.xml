@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9A8C1053-F5AE-45EC-B4C5-A7E73EE56A22}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PhotoSharingApplication.Frontend.Server PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhotoSharingApplication.Frontend/Client/Pages/AllPhotos.razor">
+    <Files>
+      <File FileName="PhotoSharingApplication.Frontend/Client/Pages/AllPhotos.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PhotoSharingApplication" expanded="True">
+            <Node name="PhotoSharingApplication.Frontend.Client" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
