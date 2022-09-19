@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj": {}
+    "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj": {}
   },
   "projects": {
-    "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj": {
+    "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj",
+        "projectUniqueName": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj",
         "projectName": "PhotoSharingApplication.Frontend.Client",
-        "projectPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj",
+        "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj",
         "packagesPath": "/Users/wolkf00/.nuget/packages/",
-        "outputPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Client/obj/",
+        "outputPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/wolkf00/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj": {
-                "projectPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj"
+              "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj": {
+                "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj": {
+    "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj",
+        "projectUniqueName": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj",
         "projectName": "PhotoSharingApplication.Frontend.Server",
-        "projectPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj",
+        "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj",
         "packagesPath": "/Users/wolkf00/.nuget/packages/",
-        "outputPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Server/obj/",
+        "outputPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/wolkf00/.nuget/NuGet/NuGet.Config"
@@ -99,11 +99,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj": {
-                "projectPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj"
+              "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj": {
+                "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/PhotoSharingApplication.Frontend.Client.csproj"
               },
-              "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj": {
-                "projectPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj"
+              "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj": {
+                "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj": {
+    "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj",
+        "projectUniqueName": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj",
         "projectName": "PhotoSharingApplication.Frontend.Shared",
-        "projectPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj",
+        "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj",
         "packagesPath": "/Users/wolkf00/.nuget/packages/",
-        "outputPath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/obj/",
+        "outputPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/wolkf00/.nuget/NuGet/NuGet.Config"

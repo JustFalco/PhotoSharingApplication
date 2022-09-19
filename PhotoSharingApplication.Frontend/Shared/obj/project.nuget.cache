@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qw7p2jKN8efsDwdeMuVQUfgg6PbVRG4ph65Uy+vIytXhbyJeK0r1LxBjQ2lVb1PkvNqe/hXaFRS6AKlscZcvcA==",
+  "dgSpecHash": "fzwUIz/nFXXwcdpn/SA8AnHXHR1npQuNwf81o7vTT1aycVE3Dn9lg6eDnOqCiwL3zgSGbHMo7WY5hw3yfPsUiA==",
   "success": true,
-  "projectFilePath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj",
+  "projectFilePath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

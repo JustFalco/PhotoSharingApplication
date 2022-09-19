@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y2lMCkIrzgKBywxyQ4fSoBrX2YkPtdRWDx6M2aMk/H0/jj44bCxr7hwRk80wvRwvaF+8jBdssfiKQPfCnvsxbQ==",
+  "dgSpecHash": "lDdRa4u+/0NI5L5TWMf2/dHO2ttx8lo1nzf7AwY2sltOvOVLoMUU7MLX8s+MbJw8ujKVdwOJRsIwxtrhvVXY7w==",
   "success": true,
-  "projectFilePath": "/Users/wolkf00/Documents/Development/blazor-master/Lab02/Start/PhotoSharingApplication/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj",
+  "projectFilePath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Server/PhotoSharingApplication.Frontend.Server.csproj",
   "expectedPackageFiles": [
     "/Users/wolkf00/.nuget/packages/microsoft.aspnetcore.authorization/6.0.2/microsoft.aspnetcore.authorization.6.0.2.nupkg.sha512",
     "/Users/wolkf00/.nuget/packages/microsoft.aspnetcore.components/6.0.2/microsoft.aspnetcore.components.6.0.2.nupkg.sha512",
