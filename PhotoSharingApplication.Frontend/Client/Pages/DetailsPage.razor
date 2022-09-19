@@ -2,9 +2,7 @@
 
 @using PhotoSharingApplication.Shared.Interfaces
 @using PhotoSharingApplication.Shared.Entities
-@inject IPhotosService photosService
-
-@page "/photos/details/{id:int}"
+@inject IPhotosService PhotosService
 
 <PageTitle>Photo Details - @photo?.Title</PageTitle>
 
@@ -27,6 +25,6 @@
     Photo? photo;
 
     protected override async Task OnInitializedAsync() {
-        photo = await photosService.FindAsync(Id);
+        photo = await PhotosService.FindAsync(Id);
     }
 }

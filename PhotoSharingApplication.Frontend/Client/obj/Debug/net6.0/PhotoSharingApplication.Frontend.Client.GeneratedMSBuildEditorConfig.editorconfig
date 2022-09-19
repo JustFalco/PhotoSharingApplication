@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/DeletePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVsZXRlUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/DetailsPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsc1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/UpdatePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBkYXRlUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/UploadPhoto.razor]
