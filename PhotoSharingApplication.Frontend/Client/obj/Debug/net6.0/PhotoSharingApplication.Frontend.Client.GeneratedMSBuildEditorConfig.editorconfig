@@ -30,12 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/DetailsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Pages/UploadPhoto.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBsb2FkUGhvdG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Client/Shared/SurveyPrompt.razor]

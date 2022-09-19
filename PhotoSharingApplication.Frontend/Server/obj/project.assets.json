@@ -517,7 +517,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.2",
-          "PhotoSharingApplication.Frontend.Shared": "1.0.0"
+          "PhotoSharingApplication.Frontend.Shared": "1.0.0",
+          "PhotoSharingApplication.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PhotoSharingApplication.Frontend.Client.dll": {}
@@ -534,6 +535,16 @@
         },
         "runtime": {
           "bin/placeholder/PhotoSharingApplication.Frontend.Shared.dll": {}
+        }
+      },
+      "PhotoSharingApplication.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PhotoSharingApplication.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotoSharingApplication.Shared.dll": {}
         }
       }
     }
@@ -1208,6 +1219,11 @@
       "type": "project",
       "path": "../Shared/PhotoSharingApplication.Frontend.Shared.csproj",
       "msbuildProject": "../Shared/PhotoSharingApplication.Frontend.Shared.csproj"
+    },
+    "PhotoSharingApplication.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj",
+      "msbuildProject": "../../PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

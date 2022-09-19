@@ -508,6 +508,16 @@
         "runtime": {
           "bin/placeholder/PhotoSharingApplication.Frontend.Shared.dll": {}
         }
+      },
+      "PhotoSharingApplication.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PhotoSharingApplication.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotoSharingApplication.Shared.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -1010,6 +1020,16 @@
         },
         "runtime": {
           "bin/placeholder/PhotoSharingApplication.Frontend.Shared.dll": {}
+        }
+      },
+      "PhotoSharingApplication.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PhotoSharingApplication.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotoSharingApplication.Shared.dll": {}
         }
       }
     }
@@ -1778,13 +1798,19 @@
       "type": "project",
       "path": "../Shared/PhotoSharingApplication.Frontend.Shared.csproj",
       "msbuildProject": "../Shared/PhotoSharingApplication.Frontend.Shared.csproj"
+    },
+    "PhotoSharingApplication.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj",
+      "msbuildProject": "../../PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.2",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.2",
-      "PhotoSharingApplication.Frontend.Shared >= 1.0.0"
+      "PhotoSharingApplication.Frontend.Shared >= 1.0.0",
+      "PhotoSharingApplication.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1814,6 +1840,9 @@
           "projectReferences": {
             "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj": {
               "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj"
+            },
+            "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj": {
+              "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj"
             }
           }
         }

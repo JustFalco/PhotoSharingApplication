@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\PhotoSharingApplication.Shared\PhotoSharingApplication.Shared.csproj" />
     <ProjectReference Include="..\Shared\PhotoSharingApplication.Frontend.Shared.csproj" />
   </ItemGroup>
 

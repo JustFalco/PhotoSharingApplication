@@ -28,6 +28,9 @@
             "projectReferences": {
               "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj": {
                 "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj"
+              },
+              "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj": {
+                "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj"
               }
             }
           }
@@ -85,6 +88,59 @@
         "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/PhotoSharingApplication.Frontend.Shared.csproj",
         "packagesPath": "/Users/wolkf00/.nuget/packages/",
         "outputPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Frontend/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wolkf00/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj",
+        "projectName": "PhotoSharingApplication.Shared",
+        "projectPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Shared/PhotoSharingApplication.Shared.csproj",
+        "packagesPath": "/Users/wolkf00/.nuget/packages/",
+        "outputPath": "/Users/wolkf00/RiderProjects/PhotoSharingApplication2/PhotoSharingApplication.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/wolkf00/.nuget/NuGet/NuGet.Config"
