@@ -10,7 +10,7 @@
 @if (photo is null || loading) {
     <p>...Loading...</p>
 } else {
-    <MudForm Model="@photo" OnValidSubmit="HandleValidSubmit" Class="d-flex flex-column">
+    <EditForm Model="@photo" OnValidSubmit="HandleValidSubmit" Class="d-flex flex-column">
         <MudTextField Label="Title" Variant="Variant.Outlined" @bind-Value="photo.Title" Required="true" RequiredError="Title is required!" T="String" />
         <MudTextField Lines="5" Label="Description" Variant="Variant.Outlined" @bind-Value="photo.Description" T="String" />
 
@@ -20,7 +20,7 @@
 
         <div class="d-flex justify-center flex-column">
             <div class="m-5 d-flex justify-center">
-                <InputFile id="fileInput" OnChange="HandleFileSelected" hidden multiple />
+                <InputFile id="fileInput" OnChange="HandleFileSelected" hidden />
                 <MudButton HtmlTag="label"
                        Variant="Variant.Filled"
                        Color="Color.Primary"
@@ -33,14 +33,14 @@
             <div class="m-4 mt-5 d-flex justify-center">
                 <MudButton Variant="Variant.Filled"
                        Color="Color.Primary"
-                       ButtonType="ButtonType.Submit">
+                       OnClick="(()=> HandleValidSubmit())">
                     Submit
                 </MudButton>
             </div>
 
         </div>
 
-    </MudForm>
+    </EditForm>
 }
 
 @code {
@@ -55,10 +55,11 @@
         photo = await photosService.FindAsync(Id);
     }
 
-    private async Task HandleValidSubmit(EditContext context)
-    {
+
+    private async Task HandleValidSubmit()
+    {   
         await photosService.UpdateAsync(photo);
-        navigationManager.NavigateTo("photos/all");
+        navigationManager.NavigateTo("/photos/all"); 
     }
 
     private async Task HandleFileSelected(InputFileChangeEventArgs args) {

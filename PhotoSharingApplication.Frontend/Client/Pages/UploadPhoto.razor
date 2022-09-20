@@ -6,7 +6,7 @@
 
 <PageTitle>Upload Photo</PageTitle>
 
-<MudForm Model="@photo" OnValidSubmit="HandleValidSubmit" Class="d-flex flex-column">
+<EditForm Model="@photo" OnValidSubmit="HandleValidSubmit" Class="d-flex flex-column">
     <MudTextField Label="Title" Variant="Variant.Outlined" @bind-Value="photo.Title" Required="true" RequiredError="Title is required!" T="String" />
     <MudTextField Lines="5" Label="Description" Variant="Variant.Outlined" @bind-Value="photo.Description" T="String" />
     
@@ -36,7 +36,7 @@
         
     </div>
     
-</MudForm>
+</EditForm>
 
 @code {
     Photo photo = new Photo();
