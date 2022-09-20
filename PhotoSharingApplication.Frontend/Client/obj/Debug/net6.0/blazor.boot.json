@@ -199,7 +199,7 @@
       "System.Private.CoreLib.dll": "sha256-mqfalNg3wC8XHlyA+j5ioNcnc0kt4prNudKdyJoaYaU=",
       "PhotoSharingApplication.Frontend.Shared.dll": "sha256-3g75wkO7OafBFYWta6WRu11JBr6dQMHZvgrVpjeBmQA=",
       "PhotoSharingApplication.Shared.dll": "sha256-OmByyumySLmywccHWcVAMQDe1QLgQrE52cFgDFFFoIs=",
-      "PhotoSharingApplication.Frontend.Client.dll": "sha256-z9sru53WR1z+yUNgSYDUbVQ+OJxxR67iYYsU15hm\/Mk="
+      "PhotoSharingApplication.Frontend.Client.dll": "sha256-Ud8vUgSE00oJ4BGVAdBvHyI5Wqf6Cqcv4SE\/PG2fcRc="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -207,7 +207,7 @@
     "pdb": {
       "PhotoSharingApplication.Shared.pdb": "sha256-xrMesmcGqABuDysJ69RgxHZOgDSptt5r+TZRJXspxbI=",
       "PhotoSharingApplication.Frontend.Shared.pdb": "sha256-VompyGUI3gqoGN0zH60nvY4iGENF1LehWIsj\/R907wE=",
-      "PhotoSharingApplication.Frontend.Client.pdb": "sha256-dlADEl1KFIksWjWcgDKB6kAGIPbzBdXgCuYA7CYl08I="
+      "PhotoSharingApplication.Frontend.Client.pdb": "sha256-Vs5G682tudRgf0r9Na211+r+hDCizSJHmasu+b9Cvmg="
     },
     "runtime": {
       "dotnet.6.0.9.1j7g2wfadq.js": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",
