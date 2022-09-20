@@ -33,7 +33,7 @@
             <div class="m-4 mt-5 d-flex justify-center">
                 <MudButton Variant="Variant.Filled"
                        Color="Color.Primary"
-                       type="submit">
+                       ButtonType="ButtonType.Submit">
                     Submit
                 </MudButton>
             </div>
@@ -57,10 +57,8 @@
 
     private async Task HandleValidSubmit(EditContext context)
     {
-        loading = true;
         await photosService.UpdateAsync(photo);
         navigationManager.NavigateTo("photos/all");
-        loading = false;
     }
 
     private async Task HandleFileSelected(InputFileChangeEventArgs args) {
