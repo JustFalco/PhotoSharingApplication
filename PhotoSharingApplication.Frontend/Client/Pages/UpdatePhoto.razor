@@ -10,6 +10,8 @@
 @if (photo is null || loading) {
     <p>...Loading...</p>
 } else {
+    <MudFab Color="Color.Primary" Class="mt-5 mb-5" StartIcon="@Icons.Material.Filled.ArrowBack" Size="Size.Small" OnClick="(()=> goToAllPhotos())" />
+
     <EditForm Model="@photo" OnValidSubmit="HandleValidSubmit" Class="d-flex flex-column">
         <MudTextField Label="Title" Variant="Variant.Outlined" @bind-Value="photo.Title" Required="true" RequiredError="Title is required!" T="String" />
         <MudTextField Lines="5" Label="Description" Variant="Variant.Outlined" @bind-Value="photo.Description" T="String" />
@@ -55,6 +57,10 @@
         photo = await photosService.FindAsync(Id);
     }
 
+    private void goToAllPhotos()
+    {
+        navigationManager.NavigateTo("/photos/all");
+    }
 
     private async Task HandleValidSubmit()
     {   
