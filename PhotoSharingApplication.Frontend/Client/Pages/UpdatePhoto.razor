@@ -7,36 +7,47 @@
 
 <PageTitle>Update Photo @photo?.Title</PageTitle>
 
-@if (photo is null) {
+@if (photo is null || loading) {
     <p>...Loading...</p>
 } else {
-    <EditForm Model="@photo" OnValidSubmit="HandleValidSubmit">
-        <p>
-            <label>
-                Title:
-                <InputText @bind-Value="photo.Title" />
-            </label>
-        </p>
-        <p>
-            <label>
-                Description (optional):
-                <InputTextArea @bind-Value="photo.Description" />
-            </label>
-        </p>
-        <p>
-            <label>
-                File:
-                <InputFile OnChange="HandleFileSelected" />
-            </label>
-        </p>
-        <p><img src="@(photo.PhotoFile is null ? "" : $"data:{photo.ImageMimeType};base64,{Convert.ToBase64String(photo.PhotoFile)}")" /></p>
-        <button type="submit">Submit</button>
-    </EditForm>
+    <MudForm Model="@photo" OnValidSubmit="HandleValidSubmit" Class="d-flex flex-column">
+        <MudTextField Label="Title" Variant="Variant.Outlined" @bind-Value="photo.Title" Required="true" RequiredError="Title is required!" T="String" />
+        <MudTextField Lines="5" Label="Description" Variant="Variant.Outlined" @bind-Value="photo.Description" T="String" />
+
+        <div class="d-flex justify-center">
+            <MudImage ObjectFit="ObjectFit.Cover" Src="@(photo.PhotoFile == null ? "" : $"data:{photo.ImageMimeType};base64,{Convert.ToBase64String(photo.PhotoFile)}")" Class="rounded-lg ma-4" Width="200" Height="200" />
+        </div>
+
+        <div class="d-flex justify-center flex-column">
+            <div class="m-5 d-flex justify-center">
+                <InputFile id="fileInput" OnChange="HandleFileSelected" hidden multiple />
+                <MudButton HtmlTag="label"
+                       Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       StartIcon="@Icons.Filled.CloudUpload"
+                       for="fileInput">
+                    Upload photo
+                </MudButton>
+            </div>
+
+            <div class="m-4 mt-5 d-flex justify-center">
+                <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       type="submit">
+                    Submit
+                </MudButton>
+            </div>
+
+        </div>
+
+    </MudForm>
 }
 
 @code {
     [Parameter]
     public int Id { get; set; }
+
+    bool loading = false;
 
     Photo? photo;
 
@@ -44,9 +55,12 @@
         photo = await photosService.FindAsync(Id);
     }
 
-    private async Task HandleValidSubmit() {
+    private async Task HandleValidSubmit(EditContext context)
+    {
+        loading = true;
         await photosService.UpdateAsync(photo);
-        navigationManager.NavigateTo("/photos/all");
+        navigationManager.NavigateTo("photos/all");
+        loading = false;
     }
 
     private async Task HandleFileSelected(InputFileChangeEventArgs args) {

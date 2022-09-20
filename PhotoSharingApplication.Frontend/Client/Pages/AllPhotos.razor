@@ -14,22 +14,31 @@ else
 {
     @foreach (var photo in photos)
     {
-        <MudCard Outlined="true">
+        <MudCard Outlined="true" Class="mt-3 mb-2">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">@photo.Id</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">@photo.Title</MudText>
+                    <MudText Typo="Typo.body2">@photo.CreatedDate</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <NavLink class="m-2" href="@($"photos/update/{photo.Id}")"><MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" /></NavLink>
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia Image="@(photo.PhotoFile is null ? "" : $"data:{photo.ImageMimeType};base64,{Convert.ToBase64String(photo.PhotoFile)}")" Height="250" />
             <MudCardContent>
-                <MudText Typo="Typo.h3">@photo.Title</MudText>
-                <MudText Typo="Typo.subtitle1">@photo.Description</MudText>
-                <p><MudImage Elevation="25" Class="rounded-lg" Src="@(photo.PhotoFile is null ? "" : $"data:{photo.ImageMimeType};base64,{Convert.ToBase64String(photo.PhotoFile)}")" /></p>
+                <MudText Typo="Typo.body2">@photo.Description</MudText>
             </MudCardContent>
-            
             <MudCardActions>
-                <NavLink href="@($"photos/details/{photo.Id}")">Details</NavLink>
-                <NavLink class="m-2" href="@($"photos/update/{photo.Id}")">Update</NavLink>
-                <NavLink href="@($"photos/delete/{photo.Id}")">Delete</NavLink>
+                <NavLink href="@($"photos/details/{photo.Id}")"><MudIconButton Icon="@Icons.Material.Filled.Info" Color="Color.Default" /></NavLink>
+                <NavLink href="@($"photos/delete/{photo.Id}")"><MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Error" /></NavLink>
             </MudCardActions>
         </MudCard>
     }
 
-    <NavLink href="@($"photos/upload")" class="mt-5"><MudButton Variant="Variant.Filled" Color="Color.Primary">Upload new photo</MudButton></NavLink>
+    <NavLink href="@($"photos/upload")" class="mt-5 mb-5"><MudButton Variant="Variant.Filled" Color="Color.Primary" Class="mt-5 mb-5">Upload new photo</MudButton></NavLink>
 
 }
 
