@@ -1,0 +1,12 @@
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\bin\Debug\net6.0\PhotoSharingApplication.Shared.deps.json
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\bin\Debug\net6.0\PhotoSharingApplication.Shared.dll
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\bin\Debug\net6.0\PhotoSharingApplication.Shared.pdb
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\PhotoSharingApplication.Shared.csproj.AssemblyReference.cache
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\PhotoSharingApplication.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\PhotoSharingApplication.Shared.AssemblyInfoInputs.cache
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\PhotoSharingApplication.Shared.AssemblyInfo.cs
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\PhotoSharingApplication.Shared.csproj.CoreCompileInputs.cache
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\PhotoSharingApplication.Shared.dll
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\refint\PhotoSharingApplication.Shared.dll
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\PhotoSharingApplication.Shared.pdb
+C:\Users\JustFalco\Downloads\blazor-master\blazor-master\Lab03\Start\PhotoSharingApplication\PhotoSharingApplication.Shared\obj\Debug\net6.0\ref\PhotoSharingApplication.Shared.dll
